@@ -1,6 +1,6 @@
 # Task challenge
 
-Based on Code Vertiser's [free challenge]([https://www.udemy.com/course/react-the-complete-guide-incl-redux/](https://www.codevertiser.com/reactjs-challenge-4-crud-tasklist-app/)).
+Based on Code Vertiser's [free challenge](https://www.codevertiser.com/reactjs-challenge-4-crud-tasklist-app).
 
 ## Run the app
 
