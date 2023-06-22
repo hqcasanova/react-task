@@ -1,0 +1,92 @@
+@import 'scss/variables.scss';
+
+.task {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  padding: 1.38rem 1.88rem;
+  font-weight: 400;
+  background: $white;
+  border-radius: 1rem;
+  box-shadow: 0 6px 58px rgba(196,203,214,.104);
+
+  @media (min-width: 600px) {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem auto 0;
+    max-width: 100%;
+    width: 720px;
+
+    &__prop {
+      margin-top: 0 !important;
+      width: 100px;
+
+      &:first-child {
+        width: 170px;
+      }
+    }
+
+    &__actions {
+      margin-top: 0 !important;
+    }
+  }
+
+  &__name {
+    font-size: .875rem;
+    color: $grey;
+  }
+
+  &__prop {
+    &--low {
+      color: $ok;
+    }
+
+    &--medium {
+      color: $warning;
+    }
+
+    &--high {
+      color: $danger;
+    }
+
+    &--btn {
+      padding: .44rem .875rem;
+      font-size: .75rem;
+      font-weight: 700;
+      color: $light-grey;
+      background: $lighter-grey;
+      border-radius: .5rem;
+    }
+  }
+
+  &__prop, &__actions {
+    flex-grow: 0;
+    margin-top: 1rem;
+  }
+
+  &__priority {
+    font-size: .875rem;
+    font-weight: 700;
+
+    &:first-letter {
+      text-transform: uppercase;
+    }
+  }
+
+  &__status {
+    text-align: center;
+  }
+
+  &__progress, &__actions {
+    font-size: 1.5rem;
+  }
+
+  &__edit {
+    margin-right: 1.25rem;
+  }
+
+  &__delete {
+    color: $danger;
+  }
+}

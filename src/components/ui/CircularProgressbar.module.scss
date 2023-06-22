@@ -1,0 +1,19 @@
+@import '../../scss/variables.scss';
+
+.circular-progressbar {
+  display: block;
+
+  &__background {
+    fill: none;
+    stroke: $lighter-grey;
+    ;
+  }
+  
+  &__progress {
+    fill: none;
+    stroke: $primary;
+    stroke-linecap: round;
+    transition: stroke-dashoffset 0.5s ease 0s;
+  }
+}
+
