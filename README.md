@@ -1,4 +1,4 @@
-# Task challenge
+# Task challenge - Work in progress
 
 Based on Code Vertiser's [free challenge](https://www.codevertiser.com/reactjs-challenge-4-crud-tasklist-app).
 
